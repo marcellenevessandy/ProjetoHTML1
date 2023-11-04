@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+}
+
+body {
+    background: rgb(113, 147, 191);
+    color: black;
+}
+
+h1{
+    font-size: 30px;
+}
+
+/* estilização do cabeçalho da página */
+.header{
+    background: rgb(37, 74, 194);
+    text-align: center;
+    padding: 20px; 
+}
+
+a{
+    color:rgb(19, 17, 17);
+    text-decoration:none;
+}
