@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Rokkitt:ital,wght@0,700;1,400&display=swap');
+
 *{
     margin: 0;
 }
@@ -5,20 +7,43 @@
 body {
     background: rgb(113, 147, 191);
     color: black;
+    font-family: 'Rokkitt', serif;
 }
 
 h1{
-    font-size: 30px;
+    font-size: 50px;
 }
 
 /* estilização do cabeçalho da página */
 .header{
     background: rgb(37, 74, 194);
     text-align: center;
-    padding: 20px; 
+    padding: 50px; 
 }
 
 a{
     color:rgb(19, 17, 17);
     text-decoration:none;
+    display: block;
+}
+
+.content{
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+}
+
+p{
+    padding-bottom: 20px;
+}
+
+ion-icon{
+    color:rgb(46, 0, 197);
+}
+
+ion-icon.instagram{
+    color:rgb(197, 0, 171));
+}
+ion-icon.linkedin{
+    color:rgb(49, 197, 0);
 }
