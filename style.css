@@ -38,12 +38,18 @@ p{
 }
 
 ion-icon{
-    color:rgb(46, 0, 197);
+    color:rgb(214, 64, 194);
 }
 
 ion-icon.instagram{
-    color:rgb(197, 0, 171));
+    color:rgb(214, 64, 194));
 }
 ion-icon.linkedin{
-    color:rgb(49, 197, 0);
+    color:rgb(214, 64, 194);
+}
+.links{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    padding-top: 5px;
 }
